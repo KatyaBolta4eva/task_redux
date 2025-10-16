@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import GameLayout from './GameLayout';
 import './Game.css';
 
