@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { store } from '../../store'; // предполагая, что store в том же месте
+import { store } from '../../store'; 
 import styles from './InformationLayout.module.css';
 
 function InformationLayout() {
