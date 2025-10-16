@@ -1,0 +1,35 @@
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 80px);
+	grid-template-rows: repeat(3, 80px);
+	gap: 6px;
+	background-color: #d7ecf3;
+	padding: 10px;
+	border-radius: 8px;
+  }
+
+  .cell {
+	all: unset;
+	background-color: #f9f3e6;
+	border: 2px solid #b2d7ea;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #494d4e;
+	cursor: pointer;
+	transition: all 0.2s ease;
+  }
+
+  .cell:hover {
+	background-color: #f0e5d0; 
+  }
+
+  .cell:active {
+	transform: scale(0.98);
+  }
+
+

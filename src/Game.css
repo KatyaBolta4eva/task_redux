@@ -1,0 +1,22 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f8f8ed; 
+	font-family: 'Arial', sans-serif;
+  }
+
+
+  .game-container {
+	background-color: #fff8e7;
+	padding: 2rem;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+
